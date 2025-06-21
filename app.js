@@ -26,4 +26,4 @@ app.get("/", function (req, res){
 });
 
 // Use server.listen instead of app.listen
-module.exports = app;
+server.listen(3000);
